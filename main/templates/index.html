@@ -1,0 +1,31 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'main/style.css' %}" />
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Jazzy Java Cafe</title>
+    </head>
+    <body class="index_page">
+        <div class="header">
+            <header><h1>Jazzy Java Cafe Logo Here</h1></header>
+            <div class="nav">
+                <div class ="home active"> <a href="/">Home</a></div>
+                <div class ="about"> <a href="/about">About </a></div>
+                <div class ="menu"><a href="/menu/">Menu</a></div>
+                <div class ="reservation"><a href="/reservation/">Reservations</a></div>
+            </div>
+        </div>
+        <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis neque ex. Donec feugiat egestas dictum. In eget erat sit amet elit pellentesque convallis nec vitae turpis. Vivamus et molestie nisl. Aenean non suscipit velit. Nunc eleifend convallis consectetur. Phasellus ornare dolor eu mi vestibulum, ornare tempus lacus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque ut sem ligula. Mauris volutpat vestibulum dui in cursus. Donec aliquam orci pellentesque, interdum neque sit amet, vulputate purus. Quisque volutpat cursus nisl, in volutpat velit lacinia id. Maecenas id felis diam.
+            </p>
+        <footer>
+            Business Address, Phone Number, Etc.
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script src="{% static 'main/app.js' %}"></script>
+        {% block javascript %}{% endblock %}
+    </body>
+</html>

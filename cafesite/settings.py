@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '0noukj7%yr+=b*q)42@^9p+dv43g$&utz6z(gddiai11pya6ns'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'cafesite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-DEBUG = config('DEBUG', default=False, cast=bool)
+
 DATABASES = {
     'default': dj_database_url.config(
         default=config('DATABASE_URL')

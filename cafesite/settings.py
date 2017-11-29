@@ -25,7 +25,9 @@ SECRET_KEY = '0noukj7%yr+=b*q)42@^9p+dv43g$&utz6z(gddiai11pya6ns'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+'jazzyjavacafe.herokuapp.com'
+]
 
 
 # Application definition

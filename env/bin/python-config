@@ -1,4 +1,4 @@
-#!/Users/danimac/Desktop/jazzyjavacafe/cafesite/env/bin/python
+#!/Users/danimac/Desktop/cafesite/env/bin/python
 
 import sys
 import getopt
